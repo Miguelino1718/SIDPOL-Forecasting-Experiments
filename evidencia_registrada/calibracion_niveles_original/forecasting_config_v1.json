@@ -1,0 +1,104 @@
+{
+  "config_version": "forecasting_config_v1",
+  "project": "SIDPOL Local vs Global monthly forecasting",
+  "calibration_period": {
+    "start": "2022-01-01",
+    "end": "2022-12-01",
+    "n_origins": 12
+  },
+  "targets": {
+    "HURTO": {
+      "H_G": {
+        "max_depth": 3,
+        "n_estimators": 100,
+        "Score": 0.44364061374358654
+      },
+      "H_L": {
+        "max_depth": 4,
+        "n_estimators": 100,
+        "Score": 0.4948770469450224
+      }
+    },
+    "ROBO": {
+      "H_G": {
+        "max_depth": 6,
+        "n_estimators": 100,
+        "Score": 0.3726551160899871
+      },
+      "H_L": {
+        "max_depth": 2,
+        "n_estimators": 100,
+        "Score": 0.42318427724407176
+      }
+    }
+  },
+  "fixed_xgboost_params": {
+    "objective": "reg:squarederror",
+    "tree_method": "hist",
+    "enable_categorical": true,
+    "random_state": 42,
+    "learning_rate": 0.05,
+    "min_child_weight": 5,
+    "subsample": 1.0,
+    "colsample_bytree": 1.0,
+    "reg_lambda": 1.0,
+    "reg_alpha": 0.0,
+    "n_jobs": -1
+  },
+  "feature_columns": [
+    "lag_1",
+    "lag_2",
+    "lag_3",
+    "lag_6",
+    "lag_12",
+    "rolling_mean_3",
+    "rolling_mean_6",
+    "mes_sin",
+    "mes_cos",
+    "UBIGEO"
+  ],
+  "grid": [
+    {
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    {
+      "max_depth": 2,
+      "n_estimators": 300
+    },
+    {
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    {
+      "max_depth": 3,
+      "n_estimators": 300
+    },
+    {
+      "max_depth": 4,
+      "n_estimators": 100
+    },
+    {
+      "max_depth": 4,
+      "n_estimators": 300
+    },
+    {
+      "max_depth": 6,
+      "n_estimators": 100
+    },
+    {
+      "max_depth": 6,
+      "n_estimators": 300
+    }
+  ],
+  "score_definition": "Median across districts of each district's median scaled absolute error across 12 internal origins; scaled_error=abs(y_true-y_pred)/Q_j.",
+  "tie_break": [
+    "lower max_depth",
+    "lower n_estimators"
+  ],
+  "mase_constants_file": "sidpol_mase_constants.csv",
+  "panel_file": "sidpol_panel_lima_robo_hurto.csv",
+  "panel_sha256": "d0be7ea4da1ad68cf88b2b6bf3c0b76abc063b83c4897aa83746ec322885f868",
+  "metadata_sha256_field": "baf9b11a2496d2c675326e7265ad0d9b5464b261dd2b731ae667aab2bf43a217",
+  "panel_hash_note": "Notebook 01 metadata lacks panel_sha256; panel hash calculated and recorded here."
+}

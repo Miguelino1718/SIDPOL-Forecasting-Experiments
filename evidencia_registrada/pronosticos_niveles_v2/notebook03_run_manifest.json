@@ -1,0 +1,28 @@
+{
+  "status": "COMPLETED",
+  "code_version": "sidpol_notebooks_correccion_v2",
+  "config_version": "forecasting_config_v2",
+  "config_sha256": "812b6867b9609a48b8aeab7b150d8bb56d4c241f095430ad7fa918620bf28b25",
+  "input_hashes": {
+    "sidpol_panel_lima_robo_hurto.csv": "d0be7ea4da1ad68cf88b2b6bf3c0b76abc063b83c4897aa83746ec322885f868",
+    "sidpol_mase_constants.csv": "f4493cd68871d3c0d3eb62bf745280b72538ac928ad3d8c38cc0b895077ca896",
+    "sidpol_snapshot_metadata.json": "3a398c7dc7dfb1bc24edd0e8c6b41ed0993170cf26e2af9a6179d877b80f8058"
+  },
+  "output_hashes": {
+    "notebook03_external_predictions.csv": "df26a2eae7254136075fce0f7503b113e1b686d1365932d9bf2a9827d493677e",
+    "notebook03_global42_predictions.csv": "f3318cf4411e06debea268b2c5df22ab5cc9bd29a769c5fbefcbf44a52812523"
+  },
+  "environment": {
+    "python": "3.13.18",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "xgboost": "3.4.1",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.6.1",
+    "matplotlib": "3.10.0"
+  },
+  "n_external_predictions": 18490,
+  "n_global42_predictions": 3612,
+  "santa_maria_del_mar_ubigeo": "150138",
+  "e3_capacity_key": "H_G"
+}

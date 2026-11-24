@@ -1,0 +1,3 @@
+notebook,seccion,figura,vector,datos,filas,descripcion
+03,5. Series observadas y pronosticadas,serie_robo.png,serie_robo.svg,serie_robo_datos.csv,129,"Distrito 150121, elegido por volumen previo, no por error. Fuente: forecasts de esta ejecución. Ilustración distrital, no estimación de desempeño general."
+03,5. Series observadas y pronosticadas,serie_hurto.png,serie_hurto.svg,serie_hurto_datos.csv,129,"Distrito 150116, elegido por volumen previo, no por error. Fuente: forecasts de esta ejecución. Ilustración distrital, no estimación de desempeño general."

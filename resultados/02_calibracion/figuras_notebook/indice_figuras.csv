@@ -1,0 +1,5 @@
+notebook,seccion,figura,vector,datos,filas,descripcion
+02,5. Scores internos,calibracion_robo_niveles.png,calibracion_robo_niveles.svg,calibracion_robo_niveles_datos.csv,16,Datos: scores reconstruidos desde los 12 pronósticos internos por distrito. Estrella: configuración elegida.
+02,5. Scores internos,calibracion_robo_dz.png,calibracion_robo_dz.svg,calibracion_robo_dz_datos.csv,32,Datos: scores reconstruidos desde los 12 pronósticos internos por distrito. Estrella: configuración elegida.
+02,5. Scores internos,calibracion_hurto_niveles.png,calibracion_hurto_niveles.svg,calibracion_hurto_niveles_datos.csv,16,Datos: scores reconstruidos desde los 12 pronósticos internos por distrito. Estrella: configuración elegida.
+02,5. Scores internos,calibracion_hurto_dz.png,calibracion_hurto_dz.svg,calibracion_hurto_dz_datos.csv,32,Datos: scores reconstruidos desde los 12 pronósticos internos por distrito. Estrella: configuración elegida.

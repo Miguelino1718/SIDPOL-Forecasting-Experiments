@@ -1,0 +1,1 @@
+Fuente: errores mensuales de main, agrupados por target y mes. Banda IQR distrital, no IC. Descripción alrededor del cambio de registro; no efecto causal.

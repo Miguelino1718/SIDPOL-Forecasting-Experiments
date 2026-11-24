@@ -1,0 +1,21 @@
+{
+  "status": "COMPLETED",
+  "environment": {
+    "python": "3.13.18",
+    "numpy": "2.4.6",
+    "pandas": "2.2.3",
+    "xgboost": "3.4.1",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.6.1",
+    "matplotlib": "3.10.0"
+  },
+  "input_hashes": {
+    "sidpol_panel_lima_robo_hurto.csv": "d0be7ea4da1ad68cf88b2b6bf3c0b76abc063b83c4897aa83746ec322885f868",
+    "sidpol_mase_constants.csv": "f4493cd68871d3c0d3eb62bf745280b72538ac928ad3d8c38cc0b895077ca896"
+  },
+  "config_sha256": "bbd0029c48041d9f0de74cf793838b5003250775be907b1efab014cc4e256625",
+  "reentrenar_niveles": false,
+  "output_hashes": {
+    "pronosticos_2023_2026.csv": "e79c46b83e6ed749dbf887b5443f6ccdaf6657ba1173a514f1eb57321b1132cd"
+  }
+}

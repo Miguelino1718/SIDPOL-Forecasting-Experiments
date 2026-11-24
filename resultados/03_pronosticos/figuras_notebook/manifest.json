@@ -1,0 +1,38 @@
+{
+  "status": "COMPLETED",
+  "environment": {
+    "python": "3.13.18",
+    "numpy": "2.4.6",
+    "pandas": "2.2.3",
+    "xgboost": "3.4.1",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.6.1",
+    "matplotlib": "3.10.0"
+  },
+  "input_hashes": {
+    "sidpol_panel_lima_robo_hurto.csv": "d0be7ea4da1ad68cf88b2b6bf3c0b76abc063b83c4897aa83746ec322885f868",
+    "sidpol_mase_constants.csv": "f4493cd68871d3c0d3eb62bf745280b72538ac928ad3d8c38cc0b895077ca896"
+  },
+  "mode": "revisar",
+  "training_performed": false,
+  "forecasts_sha256": "e79c46b83e6ed749dbf887b5443f6ccdaf6657ba1173a514f1eb57321b1132cd",
+  "config_sha256": "bbd0029c48041d9f0de74cf793838b5003250775be907b1efab014cc4e256625",
+  "code_sha256": {
+    "sidpol.py": "e7d92fbbc15598db5764a73253524bdfcd37e53bc472bad2fac58d2efe897a86",
+    "sidpol_figuras.py": "af0026a96673bd887aee030122f2d2ced003aaa8ada9b1c6bb22259f9211dcdc"
+  },
+  "output_hashes": {
+    "cortes_temporales_reales.csv": "f2b9c4453bffb12301bfdeced137710b678d878058eaa773340195882202d7d5",
+    "distritos_ejemplo.csv": "3c7925dd9c45ad1f82dec3ab32533e50757bdc45abf3641887c539e27a37949e",
+    "indice_figuras.csv": "5cfbb6d93bfbc8bbf6c12bc336f21e5a8272f9f90c7ebee20b15ce05adea0d48",
+    "primer_pronostico_ejemplo.csv": "ecd3d7419febb5fb04c66f03d21a2a96f16bb9423786a3153323f27306802663",
+    "serie_hurto.png": "3cc7f38c61db6077091fc4fe6dbccff9e43078c398f6acedb77214de7fc5ec56",
+    "serie_hurto.svg": "b60213fc7ac8d89ea9b6206fd17fb780daa16f688ad7a06be15040fb0beb790b",
+    "serie_hurto.txt": "6b391f8c49928c1cbfabd8e30810c84607701efe5360fc64cef34736d3d1d83d",
+    "serie_hurto_datos.csv": "fb8e5f863dbe9784e00b2f20f9d29537afae8c2c91dc2d5307052d744537a84f",
+    "serie_robo.png": "bd795e35b6ff2e269ee62d7423ccd06fd22e19f783c4b375d83a5ee1c1d63993",
+    "serie_robo.svg": "1221fcae71048e207b38a170f798f16e487c31b6ebe2ecfc6d4b58f164eef4ba",
+    "serie_robo.txt": "faa777dc00cee70fac29680d3402e1e1ea65bdce0766809c82c590ea1f8ce20c",
+    "serie_robo_datos.csv": "32cb63bddfade3ef3fca3c3d4b65efdd2dd02cc59b96a3a59538285a6c260437"
+  }
+}

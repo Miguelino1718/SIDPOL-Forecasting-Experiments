@@ -1,0 +1,45 @@
+{
+  "status": "COMPLETED",
+  "environment": {
+    "python": "3.13.18",
+    "numpy": "2.4.6",
+    "pandas": "2.2.3",
+    "xgboost": "3.4.1",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.6.1",
+    "matplotlib": "3.10.0"
+  },
+  "input_hashes": {
+    "sidpol_panel_lima_robo_hurto.csv": "d0be7ea4da1ad68cf88b2b6bf3c0b76abc063b83c4897aa83746ec322885f868",
+    "sidpol_mase_constants.csv": "f4493cd68871d3c0d3eb62bf745280b72538ac928ad3d8c38cc0b895077ca896"
+  },
+  "mode": "revisar",
+  "training_performed": false,
+  "config_sha256": "bbd0029c48041d9f0de74cf793838b5003250775be907b1efab014cc4e256625",
+  "scores_sha256": "855fb1279dd9290db8bb64a857a36ef478964d12ced6b37cff5bc8c7c8239308",
+  "code_sha256": {
+    "sidpol.py": "e7d92fbbc15598db5764a73253524bdfcd37e53bc472bad2fac58d2efe897a86",
+    "sidpol_figuras.py": "af0026a96673bd887aee030122f2d2ced003aaa8ada9b1c6bb22259f9211dcdc"
+  },
+  "output_hashes": {
+    "calibracion_hurto_dz.png": "db1305d80ad6da8b38e92a1b426cdf932da004f9f058e873838dc35d6d38d9a5",
+    "calibracion_hurto_dz.svg": "d33978acc96fa8058c3aa417d2a91aa902ebdc350dba9218063b2de7c5d146ae",
+    "calibracion_hurto_dz.txt": "0e6cdb63800ccebb188863fa211c6ff9cba8cc960c0764ad87022b41cccdd775",
+    "calibracion_hurto_dz_datos.csv": "4ca879ce4d8fbcb8c0b9519a3059b31311c3f7a24a1b6a0013bd98f72903eb06",
+    "calibracion_hurto_niveles.png": "b63e7b3fb69435b66eefc3b721c33e64f44a9d3f1fe2ce763d7602d1061d4413",
+    "calibracion_hurto_niveles.svg": "93514f78fcea4f8a3ac4dfb654259a5d1412581db93c2ea3dfd93c8ee61a2b76",
+    "calibracion_hurto_niveles.txt": "0e6cdb63800ccebb188863fa211c6ff9cba8cc960c0764ad87022b41cccdd775",
+    "calibracion_hurto_niveles_datos.csv": "bea9b3fc4c7f45d29cfe8b6dcb98dec23b13615490ac43cfd684cc4190cd25f2",
+    "calibracion_robo_dz.png": "66220798fb71e46ad919e181e63cdfe6efb5f13866c04999eaa79943740e5e73",
+    "calibracion_robo_dz.svg": "f93e6e99e34d8ef05b03b72fb7a92d0b62ddfe8d4256a13c739c2a80032217e5",
+    "calibracion_robo_dz.txt": "0e6cdb63800ccebb188863fa211c6ff9cba8cc960c0764ad87022b41cccdd775",
+    "calibracion_robo_dz_datos.csv": "2b6e0a0b3cfb03def16117488ca4d1ebc129872b1d07e715507838a9fd84dc73",
+    "calibracion_robo_niveles.png": "19d56c24a7a7fb7b157e4d850365cfd4b03188d2eb1cff5c0bd66bbf4336b741",
+    "calibracion_robo_niveles.svg": "9a445ab9da478a889f792ba0abdf8d90ece1923e86f9e7f4925b6ad003fbdea6",
+    "calibracion_robo_niveles.txt": "0e6cdb63800ccebb188863fa211c6ff9cba8cc960c0764ad87022b41cccdd775",
+    "calibracion_robo_niveles_datos.csv": "9415b37a20aa314522748a28748bbbd04f8f1214cf139b032b5ffe61afe64cfa",
+    "ejemplo_12_errores.csv": "d1bf032e744a33946af2c9a316a7a9dae8cf726cc3419d468796ff0a905886e0",
+    "indice_figuras.csv": "c7ccbbcd71e72f978370cc0d43514d31672880359ea1f6bec66a5fe5f50dfe28",
+    "scores_reconstruidos.csv": "855fb1279dd9290db8bb64a857a36ef478964d12ced6b37cff5bc8c7c8239308"
+  }
+}

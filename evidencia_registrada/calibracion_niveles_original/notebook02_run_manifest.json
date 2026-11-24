@@ -1,0 +1,22 @@
+{
+  "notebook": "Notebook 02 — Calibración interna Local/Global",
+  "status": "COMPLETED",
+  "panel_sha256": "d0be7ea4da1ad68cf88b2b6bf3c0b76abc063b83c4897aa83746ec322885f868",
+  "panel_rows": 8858,
+  "n_districts": 43,
+  "n_months": 103,
+  "n_series": 86,
+  "n_calibration_predictions": 16512,
+  "n_score_rows": 32,
+  "n_selected_configurations": 4,
+  "python": "3.13.16",
+  "pandas": "2.2.3",
+  "numpy": "2.1.3",
+  "xgboost": "3.4.1",
+  "outputs": [
+    "notebook02_calibration_scores.csv",
+    "notebook02_district_scores.csv",
+    "notebook02_internal_predictions.csv",
+    "forecasting_config_v1.json"
+  ]
+}
